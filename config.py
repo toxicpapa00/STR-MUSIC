@@ -45,17 +45,17 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TEAM-ISHA/STR-MUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ISHA_UPDATES")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
 
 # YT-API Get from @AmShashank on tg
-YOUR_API_KEY = getenv("YOUR_API_KEY", "stranger")
-YOUR_API_URL = getenv("YOUR_API_URL", "http://46.38.237.240:8000")
+YTPROXY_URL = getenv("YTPROXY_URL", "https://tgapi.xbitcode.com")
+YT_API_KEY = getenv("YT_API_KEY", "None")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
